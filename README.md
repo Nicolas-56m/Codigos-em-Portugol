@@ -405,3 +405,60 @@ Inicio
     
 Fimalgoritmo
 ```
+
+### 2-) Mostrar números de 10 a 1.
+
+```c
+
+```
+
+### 3-) Somar números até 5.
+
+```c
+
+```
+
+### 4-) Pedir número ate digitar 0.
+
+```c
+
+```
+
+### 5-) Mostrar tabuada simples.
+
+```c
+
+```
+
+## FASE 5 - PARA (for)
+<img src="https://img.shields.io/badge/FEITO NO-%2BVisuAlg-yellow"> 
+
+### 1-) Mostrar de 1 até 10.
+
+```c
+
+```
+
+### 2-) Mostrar só pares até 20.
+
+```c
+
+```
+
+### 3-) Somar números de 1 a 5.
+
+```c
+
+```
+
+### 4-) Tabuada de um número.
+
+```c
+
+```
+
+### 5-) Contagem regressiva.
+
+```c
+
+```
