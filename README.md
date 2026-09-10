@@ -216,7 +216,7 @@ Inicio
   
     dividir <- n1 / n2
   
-    Escreval("O resultado da média é: ", dividir)
+    Escreval("O resultado da divisão é: ", dividir)
 
 Fimalgoritmo
 ```
@@ -235,10 +235,10 @@ Inicio
     Escreval("Digite seu segundo número: ")  
     Leia(n2)  
     
-    Escreval("Digite seu segundo número: ")  
+    Escreval("Digite seu terceiro número: ")  
     Leia(n3)  
     
-    Escreval("Digite seu segundo número: ")  
+    Escreval("Digite seu quarto número: ")  
     Leia(n4)  
   
     media <- (n1 + n2 + n3 + n4) / 4
@@ -282,7 +282,7 @@ Inicio
     Escreval("Digite um número: ")
     Leia(num)
     
-    Se (num mod 2 = 0) entao
+    Se (num mod 3 = 0) entao
         Escreval("Ímpar")
         
     Senao     
