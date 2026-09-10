@@ -282,7 +282,7 @@ Inicio
     Escreval("Digite um número: ")
     Leia(num)
     
-    Se (num mod 3 = 0) entao
+    Se (num mod 2 <> 0) entao
         Escreval("Ímpar")
         
     Senao     
