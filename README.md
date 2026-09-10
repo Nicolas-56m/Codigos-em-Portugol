@@ -95,7 +95,7 @@ Fimalgoritmo
 ### 1-) Somar 2 números.
 
 ```c
-Algoritmo "Soma"
+Algoritmo "Soma de 2 números"
 Var 
     n1, n2, resultado: inteiro
     
@@ -158,7 +158,7 @@ Fimalgoritmo
 ### 4-) Somar 3 números.
 
 ```c
-Algoritmo "Soma"
+Algoritmo "Soma de 3 números"
 Var 
     n1, n2, n3, resultado: inteiro
     
@@ -268,7 +268,7 @@ Inicio
 Fimalgoritmo
 ```
 
-## FASE 3 - SE, SENAO, SE SENAO
+## FASE 3 - SE, SENAO
 <img src="https://img.shields.io/badge/FEITO NO-%2BVisuAlg-green"> 
 
 ### 1-) Verificar se número é ímpar.
@@ -451,7 +451,7 @@ Fimalgoritmo
 ### 4-) Pedir número ate digitar 0.
 
 ```c
-Algoritmo "0 e Soma"
+Algoritmo "Soma até 0"
 Var
     soma, num: inteiro
 Inicio
@@ -566,7 +566,7 @@ Fimalgoritmo
 
 ### 5-) Contagem regressiva.
 
-```c
+```portugol
 Algoritmo "Contagem Regressiva"
 Var 
     i: inteiro
