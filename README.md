@@ -160,7 +160,7 @@ Fimalgoritmo
 ```c
 Algoritmo "Soma"
 Var 
-    n1, n2, n3 resultado: inteiro
+    n1, n2, n3, resultado: inteiro
     
 Inicio
     Escreval("Digite seu primeiro número: ")
@@ -205,7 +205,7 @@ Fimalgoritmo
 ```c
 Algoritmo "Divisão"
 Var
-    n1, n2, media: real
+    n1, n2, dividir: real
 
 Inicio
     Escreval("Digite seu primeiro número: ")
@@ -282,7 +282,7 @@ Inicio
     Escreval("Digite um número: ")
     Leia(num)
     
-    Se (num mod 3 = 0) entao
+    Se (num mod 2 = 0) entao
         Escreval("Ímpar")
         
     Senao     
@@ -364,7 +364,7 @@ Inicio
 Fimalgoritmo
 ```
 
-### 5-) Verificar ze número é maior que 10.
+### 5-) Verificar se número é maior que 10.
 
 ```c
 Algoritmo "Maior que 10"
