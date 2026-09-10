@@ -6,89 +6,87 @@
 ### 1-) Mostrar "Olá mundo".
 
 ```c
+Algoritmo "Olá mundo"
 
-algoritmo "Olá mundo"
+Inicio
 
-inicio
-
-    escreval("Olá mundo")
+    Escreval("Olá mundo")
     
-fimalgoritmo
-
+Fimalgoritmo
 ```
 
 ### 2-) Pedir nome e idade e mostrar na tela.
 
 ```c
-algoritmo "Nome e idade"
-var
+Algoritmo "Nome e idade"
+Var
     nome: caractere
     idade: inteiro
 
-inicio
-    escreval("Digite seu nome: ")
-    leia(nome)
+Inicio
+    Escreval("Digite seu nome: ")
+    Leia(nome)
     
-    escreval("Digite sua idade: ")
-    leia(idade)
+    Escreval("Digite sua idade: ")
+    Leia(idade)
     
-    escreval("Seu nome: ", nome)
-    escreval("Sua idade: ", idade)
+    Escreval("Seu nome: ", nome)
+    Escreval("Sua idade: ", idade)
     
-fimalgoritmo
+Fimalgoritmo
 
 ```
 
 ### 3-) Pedir idade e mostrar ela.
 
 ```c
-algoritmo "Nome e idade"
-var
+Algoritmo "Nome e idade"
+Var
     idade: inteiro
 
-inicio
-    escreval("Digite sua idade: ")
-    leia(idade)
+Inicio
+    Escreval("Digite sua idade: ")
+    Leia(idade)
     
-    escreval("Sua idade: ", idade)
+    Escreval("Sua idade: ", idade)
     
-fimalgoritmo
+Fimalgoritmo
 ```
 
 ### 4-) Pedir número e mostrar o dobro.
 
 ```c
 algoritmo "Nome e idade"
-var
+Var
     num: inteiro
 
-inicio
-    escreval("Digite um numero: ")
-    leia(num)
+Inicio
+    Escreval("Digite um numero: ")
+    Leia(num)
     
     num <- num * 2
     
-    escreval("Resultado: ", num)
+    Escreval("Resultado: ", num)
     
-fimalgoritmo
+Fimalgoritmo
 ```
 
 ### 5-) Pedir número e mostrar o triplo.
 
 ```c
-algoritmo "Nome e idade"
-var
+Algoritmo "Nome e idade"
+Var
     num: inteiro
 
-inicio
-    escreval("Digite um numero: ")
+Inicio
+    Escreval("Digite um numero: ")
     leia(num)
     
     num <- num * 3
     
-    escreval("Resultado: ", num)
+    Escreval("Resultado: ", num)
     
-fimalgoritmo
+Fimalgoritmo
 ```
 
 ## FASE 2 - Soma, subtração, multiplicação e divisão
@@ -97,88 +95,88 @@ fimalgoritmo
 ### 1-) Somar 2 números.
 
 ```c
-algoritmo "Soma"
-var 
+Algoritmo "Soma"
+Var 
     n1, n2, resultado: inteiro
     
-inicio
-    escreval("Digite seu primeiro número: ")
-    leia(n1)
+Inicio
+    Escreval("Digite seu primeiro número: ")
+    Leia(n1)
     
-    escreval("Digite seu segundo número: ")
-    leia(n2)
+    Escreval("Digite seu segundo número: ")
+    Leia(n2)
     
     resultado <- n1 + n2
         
-    escreval("Resultado: ", resultado)
+    Escreval("Resultado: ", resultado)
     
-fimalgoritmo
+Fimalgoritmo
 ```
 
 ### 2-) Subtrair 2 números.
 
 ```c
-algoritmo "Subtração"
-var 
+Algoritmo "Subtração"
+Var 
     n1, n2, resultado: inteiro
     
-inicio
-    escreval("Digite seu primeiro número: ")
-    leia(n1)
+Inicio
+    Escreval("Digite seu primeiro número: ")
+    Leia(n1)
     
-    escreval("Digite seu segundo número: ")
-    leia(n2)
+    Escreval("Digite seu segundo número: ")
+    Leia(n2)
     
     resultado <- n1 - n2
         
-    escreval("Resultado: ", resultado)
+    Escreval("Resultado: ", resultado)
     
-fimalgoritmo
+Fimalgoritmo
 ```
 
 ### 3-) Multiplicar 2 números.
 
 ```c
 Algoritmo "Multiplicação"
-var 
+Var 
     n1, n2, resultado: inteiro
     
-inicio
-    escreval("Digite seu primeiro número: ")
-    leia(n1)
+Inicio
+    Escreval("Digite seu primeiro número: ")
+    Leia(n1)
     
-    escreval("Digite seu segundo número: ")
-    leia(n2)
+    Escreval("Digite seu segundo número: ")
+    Leia(n2)
     
     resultado <- n1 * n2
         
-    escreval("Resultado: ", resultado)
+    Escreval("Resultado: ", resultado)
     
-fimalgoritmo
+Fimalgoritmo
 ```
 
 ### 4-) Somar 3 números.
 
 ```c
 Algoritmo "Soma"
-var 
+Var 
     n1, n2, n3 resultado: inteiro
     
-inicio
-    escreval("Digite seu primeiro número: ")
-    leia(n1)
+Inicio
+    Escreval("Digite seu primeiro número: ")
+    Leia(n1)
     
-    escreval("Digite seu segundo número: ")
-    leia(n2)
+    Escreval("Digite seu segundo número: ")
+    Leia(n2)
 
-    escreval("Digite seu terceiro número: ")
-    leia(n3)
+    Escreval("Digite seu terceiro número: ")
+    Leia(n3)
     
     resultado <- n1 + n2 + n3
         
-    escreval("Resultado: ", resultado)
+    Escreval("Resultado: ", resultado)
     
-fimalgoritmo
+Fimalgoritmo
 ```
 
 ### 5-) Fazer média de 2 números.
@@ -188,64 +186,64 @@ Algoritmo "Média"
 Var
     n1, n2, media: real
 
-inicio
-    escreval("Digite seu primeiro número: ")
-    leia(n1)
+Inicio
+    Escreval("Digite seu primeiro número: ")
+    Leia(n1)
 
-    escreval("Digite seu segundo número: ")  
-    leia(n2)  
+    Escreval("Digite seu segundo número: ")  
+    Leia(n2)  
   
     media <- (n1 + n2) / 2  
   
-    escreval("O resultado da média é: ", media)
+    Escreval("O resultado da média é: ", media)
 
-fimalgoritmo
+Fimalgoritmo
 ```
 
 ### 6-) Dividir 2 números.
 
 ```c
-algoritmo "Divisão"
-var
+Algoritmo "Divisão"
+Var
     n1, n2, media: real
 
-inicio
-    escreval("Digite seu primeiro número: ")
-    leia(n1)
+Inicio
+    Escreval("Digite seu primeiro número: ")
+    Leia(n1)
 
-    escreval("Digite seu segundo número: ")  
-    leia(n2)  
+    Escreval("Digite seu segundo número: ")  
+    Leia(n2)  
   
     dividir <- n1 / n2
   
-    escreval("O resultado da média é: ", dividir)
+    Escreval("O resultado da média é: ", dividir)
 
-fimalgoritmo
+Fimalgoritmo
 ```
 
 ### 7-) Calcular média (usa divisão).
 
 ```c
-algoritmo "Média"
+Algoritmo "Média"
 var
     n1, n2, n3, n4, media: real
 
 Inicio
-    escreval("Digite seu primeiro número: ")
-    leia(n1)
+    Escreval("Digite seu primeiro número: ")
+    Leia(n1)
 
-    escreval("Digite seu segundo número: ")  
-    leia(n2)  
+    Escreval("Digite seu segundo número: ")  
+    Leia(n2)  
     
-    escreval("Digite seu segundo número: ")  
-    leia(n3)  
+    Escreval("Digite seu segundo número: ")  
+    Leia(n3)  
     
-    escreval("Digite seu segundo número: ")  
-    leia(n4)  
+    Escreval("Digite seu segundo número: ")  
+    Leia(n4)  
   
     media <- (n1 + n2 + n3 + n4) / 4
   
-escreval("A média é: ", media)
+    Escreval("A média é: ", media)
 
 Fimalgoritmo
 ```
@@ -258,14 +256,14 @@ Var
     n1, n2, resto: inteiro
 
 Inicio
-    escreval("Digite seu primeiro número: ")
-    leia(n1)
-    escreval("Digite seu segundo número: ")
-    leia(n2)
+   Escreval("Digite seu primeiro número: ")
+   Leia(n1)
+   Escreval("Digite seu segundo número: ")
+   Leia(n2)
 
     resto <- n1 mod n2  
   
-    escreval("O resto do resultado é: ", resto)
+    Escreval("O resto do resultado é: ", resto)
 
 Fimalgoritmo
 ```
@@ -281,15 +279,15 @@ Var
     num: Inteiro
     
 Inicio
-    escreval("Digite um número: ")
-    leia(num)
+    Escreval("Digite um número: ")
+    Leia(num)
     
-    se (num mod 3 = 0) entao
-        escreval("Ímpar")
+    Se (num mod 3 = 0) entao
+        Escreval("Ímpar")
         
-    senao     
-        escreval("Par")
-    fimse    
+    Senao     
+        Escreval("Par")
+    Fimse    
     
 Fimalgoritmo
 ```
@@ -302,15 +300,15 @@ Var
     num: Inteiro
     
 Inicio
-    escreval("Digite um número: ")
-    leia(num)
+    Escreval("Digite um número: ")
+    Leia(num)
     
-    se (num mod 2 = 0) entao
-        escreval("Par")
+    Se (num mod 2 = 0) entao
+        Escreval("Par")
         
-    senao     
-        escreval("Ímpar")
-    fimse    
+    Senao     
+        Escreval("Ímpar")
+    Fimse    
     
 Fimalgoritmo
 ```
@@ -323,18 +321,18 @@ Var
     n1, n2: inteiro
     
 Inicio
-    escreval("Digite seu primeiro número: ")
-    leia(n1)
+    Escreval("Digite seu primeiro número: ")
+    Leia(n1)
     
-    escreval("Digite seu segundo número: ")
-    leia(n2)
+    Escreval("Digite seu segundo número: ")
+    Leia(n2)
   
-    se(n1 mod 2 = 0) e (n2 mod 2 = 0) entao
-       escreval("Os dois são pares")
+    Se(n1 mod 2 = 0) e (n2 mod 2 = 0) entao
+       Escreval("Os dois são pares")
     
-    senao  
-       escreval("Pelo menos um dos números não é par")    
-    fimse
+    Senao  
+       Escreval("Pelo menos um dos números não é par")    
+    Fimse
     
 Fimalgoritmo
 ```
@@ -347,21 +345,21 @@ Var
     num: inteiro
     
 Inicio
-    escreval("Digite seu primeiro número: ")
-    leia(num)
+    Escreval("Digite seu primeiro número: ")
+    Leia(num)
   
-    se(num > 0) entao
-       escreval("Número positivo")
+    Se(num > 0) entao
+       Escreval("Número positivo")
        
-    senao
+    Senao
        
-       se(num < 0) entao
-          escreval("Número negativo")
+       Se(num < 0) entao
+          Escreval("Número negativo")
     
-       senao 
-          escreval("É zero") 
-       fimse
-    fimse
+       Senao 
+          Escreval("É zero") 
+       Fimse
+    Fimse
     
 Fimalgoritmo
 ```
@@ -374,15 +372,15 @@ Var
     num: real
     
 Inicio
-    escreval("Digite seu primeiro número: ")
-    leia(num)
+    Escreval("Digite seu primeiro número: ")
+    Leia(num)
   
-    se(num > 10) entao
-       escreval("Maior que 10")
+    Se(num > 10) entao
+       Escreval("Maior que 10")
        
-    senao
-    escreval("Não é maior que 10") 
-    fimse
+    Senao
+       Escreval("Não é maior que 10") 
+    Fimse
     
 Fimalgoritmo
 ```
