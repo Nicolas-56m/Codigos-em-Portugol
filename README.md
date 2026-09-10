@@ -275,7 +275,7 @@ Algoritmo "Ímpar ou Par"
 Var 
     num: Inteiro
     
-Inicio
+inicio
     escreval("Digite um número: ")
     leia(num)
     
@@ -286,7 +286,7 @@ Inicio
         escreval("Par")
     fimse    
     
-Fimalgoritmo
+fimalgoritmo
 ```
 
 ### 2-) Verificar se o número é par.
@@ -296,7 +296,7 @@ Algoritmo "Ímpar ou Par"
 Var 
     num: Inteiro
     
-Inicio
+inicio
     escreval("Digite um número: ")
     leia(num)
     
@@ -307,7 +307,7 @@ Inicio
         escreval("Ímpar")
     fimse    
     
-Fimalgoritmo
+fimalgoritmo
 ```
 
 ### 3-) Pedir 2 números e dizer se ambos são pares.
@@ -331,7 +331,7 @@ inicio
        escreval("Pelo menos um dos números não é par")    
     fimse
     
-Fimalgoritmo
+fimalgoritmo
 ```
 
 ### 4-) Mostrar se número é positivo ou negativo.
@@ -358,7 +358,7 @@ inicio
        fimse
     fimse
     
-Fimalgoritmo
+fimalgoritmo
 ```
 
 ### 5-) Verificar ze número é maior que 10.
@@ -379,5 +379,5 @@ inicio
     escreval("Não é maior que 10") 
     fimse
     
-Fimalgoritmo
+fimalgoritmo
 ```
