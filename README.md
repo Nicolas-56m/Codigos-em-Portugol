@@ -8,11 +8,12 @@
 ```c
 
 Algoritmo "Olá mundo"
-inicio
+
+Inicio
 
     escreval("Olá mundo")
     
-fimalgoritmo
+Fimalgoritmo
 
 ```
 
@@ -24,7 +25,7 @@ Var
     nome: caractere
     idade: inteiro
 
-inicio
+Inicio
     escreval("Digite seu nome: ")
     leia(nome)
     
@@ -34,7 +35,7 @@ inicio
     escreval("Seu nome: ", nome)
     escreval("Sua idade: ", idade)
     
-fimalgoritmo
+Fimalgoritmo
 
 ```
 
@@ -45,13 +46,13 @@ Algoritmo "Nome e idade"
 Var
     idade: inteiro
 
-inicio
+Inicio
     escreval("Digite sua idade: ")
     leia(idade)
     
     escreval("Sua idade: ", idade)
     
-fimalgoritmo
+Fimalgoritmo
 ```
 
 ### 4-) Pedir número e mostrar o dobro.
@@ -61,7 +62,7 @@ Algoritmo "Nome e idade"
 Var
     num: inteiro
 
-inicio
+Inicio
     escreval("Digite um numero: ")
     leia(num)
     
@@ -69,7 +70,7 @@ inicio
     
     escreval("Resultado: ", num)
     
-fimalgoritmo
+Fimalgoritmo
 ```
 
 ### 5-) Pedir número e mostrar o triplo.
@@ -79,7 +80,7 @@ Algoritmo "Nome e idade"
 Var
     num: inteiro
 
-inicio
+Inicio
     escreval("Digite um numero: ")
     leia(num)
     
@@ -87,7 +88,7 @@ inicio
     
     escreval("Resultado: ", num)
     
-fimalgoritmo
+Fimalgoritmo
 ```
 
 ## FASE 2 - Soma, subtração, multiplicação e divisão
@@ -99,7 +100,7 @@ fimalgoritmo
 Algoritmo "Soma"
     Var n1, n2, resultado: inteiro
     
-inicio
+Inicio
     escreval("Digite seu primeiro número: ")
     leia(n1)
     
@@ -119,7 +120,7 @@ Fimalgoritmo
 Algoritmo "Subtração"
     Var n1, n2, resultado: inteiro
     
-inicio
+Inicio
     escreval("Digite seu primeiro número: ")
     leia(n1)
     
@@ -139,7 +140,7 @@ Fimalgoritmo
 Algoritmo "Multiplicação"
     Var n1, n2, resultado: inteiro
     
-inicio
+Inicio
     escreval("Digite seu primeiro número: ")
     leia(n1)
     
@@ -159,7 +160,7 @@ Fimalgoritmo
 Algoritmo "Soma"
     Var n1, n2, n3 resultado: inteiro
     
-inicio
+Inicio
     escreval("Digite seu primeiro número: ")
     leia(n1)
     
@@ -183,7 +184,7 @@ Algoritmo "Média"
 Var
     n1, n2, media: real
 
-inicio
+Inicio
     escreval("Digite seu primeiro número: ")
     leia(n1)
 
@@ -194,7 +195,7 @@ inicio
   
     escreval("O resultado da média é: ", media)
 
-fimalgoritmo
+Fimalgoritmo
 ```
 
 ### 6-) Dividir 2 números.
@@ -204,7 +205,7 @@ Algoritmo "Divisão"
 Var
     n1, n2, media: real
 
-inicio
+Inicio
     escreval("Digite seu primeiro número: ")
     leia(n1)
 
@@ -215,7 +216,7 @@ inicio
   
     escreval("O resultado da média é: ", dividir)
 
-fimalgoritmo
+Fimalgoritmo
 ```
 
 ### 7-) Calcular média (usa divisão).
@@ -225,7 +226,7 @@ Algoritmo "Média"
 Var
     n1, n2, n3, n4, media: real
 
-inicio
+Inicio
     escreval("Digite seu primeiro número: ")
     leia(n1)
 
@@ -242,7 +243,7 @@ inicio
   
 escreval("A média é: ", media)
 
-fimalgoritmo
+Fimalgoritmo
 ```
 
 ### 8-) Dividir e mostrar resto (desafio leve).
@@ -252,7 +253,7 @@ Algoritmo "Resto da divisão"
 Var
     n1, n2, resto: inteiro
 
-inicio
+Inicio
     escreval("Digite seu primeiro número: ")
     leia(n1)
     escreval("Digite seu segundo número: ")
@@ -262,7 +263,7 @@ inicio
   
     escreval("O resto do resultado é: ", resto)
 
-fimalgoritmo
+Fimalgoritmo
 ```
 
 ## FASE 3 - SE, SENAO, SE SENAO
@@ -275,7 +276,7 @@ Algoritmo "Ímpar ou Par"
 Var 
     num: Inteiro
     
-inicio
+Inicio
     escreval("Digite um número: ")
     leia(num)
     
@@ -286,7 +287,7 @@ inicio
         escreval("Par")
     fimse    
     
-fimalgoritmo
+Fimalgoritmo
 ```
 
 ### 2-) Verificar se o número é par.
@@ -296,7 +297,7 @@ Algoritmo "Ímpar ou Par"
 Var 
     num: Inteiro
     
-inicio
+Inicio
     escreval("Digite um número: ")
     leia(num)
     
@@ -307,7 +308,7 @@ inicio
         escreval("Ímpar")
     fimse    
     
-fimalgoritmo
+Fimalgoritmo
 ```
 
 ### 3-) Pedir 2 números e dizer se ambos são pares.
@@ -317,7 +318,7 @@ Algoritmo "Pares"
 Var 
     n1, n2: inteiro
     
-inicio
+Inicio
     escreval("Digite seu primeiro número: ")
     leia(n1)
     
@@ -331,7 +332,7 @@ inicio
        escreval("Pelo menos um dos números não é par")    
     fimse
     
-fimalgoritmo
+Fimalgoritmo
 ```
 
 ### 4-) Mostrar se número é positivo ou negativo.
@@ -341,7 +342,7 @@ Algoritmo "Positivo ou Negativo"
 Var 
     num: inteiro
     
-inicio
+Inicio
     escreval("Digite seu primeiro número: ")
     leia(num)
   
@@ -358,7 +359,7 @@ inicio
        fimse
     fimse
     
-fimalgoritmo
+Fimalgoritmo
 ```
 
 ### 5-) Verificar ze número é maior que 10.
@@ -368,7 +369,7 @@ Algoritmo "Maior que 10"
 Var 
     num: real
     
-inicio
+Inicio
     escreval("Digite seu primeiro número: ")
     leia(num)
   
@@ -379,5 +380,5 @@ inicio
     escreval("Não é maior que 10") 
     fimse
     
-fimalgoritmo
+Fimalgoritmo
 ```
