@@ -566,7 +566,7 @@ Fimalgoritmo
 
 ### 5-) Contagem regressiva.
 
-```
+```portgol
 Algoritmo "Contagem Regressiva"
 Var 
     i: inteiro
