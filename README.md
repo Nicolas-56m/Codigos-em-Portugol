@@ -1,9 +1,9 @@
 # Códigos-em-Portugol - Feitos por mim (para estudo)
 
- ## FASE 1 - Escreval/escreva, leia e contas (somente)
+## FASE 1 - Escreval/escreva, leia e contas (somente)
 <img src="https://img.shields.io/badge/FEITO NO-%2BVisuAlg-red">
 
- ### 1-) Mostrar "Olá mundo".
+### 1-) Mostrar "Olá mundo".
 
 ```c
 
@@ -16,7 +16,7 @@ fimalgoritmo
 
 ```
 
-2-) Pedir nome e idade e mostrar na tela.
+### 2-) Pedir nome e idade e mostrar na tela.
 
 ```c
 Algoritmo "Nome e idade"
@@ -93,4 +93,35 @@ fimalgoritmo
 ## FASE 2 - Soma, subtração, multiplicação
 <img src="https://img.shields.io/badge/FEITO NO-%2BVisuAlg-blue">
 
- 
+### 1-) Somar 2 números.
+
+```c
+
+```
+
+### 2-) Subtrair 2 números.
+
+```c
+
+```
+
+### 3-) Multiplicar 2 números.
+
+```c
+
+```
+
+### 4-) Somar 3 números.
+
+```c
+
+```
+
+### 5-) Fazer média de 2 números.
+
+```c
+
+```
+
+## FASE 3 - Divisão
+<img src="https://img.shields.io/badge/FEITO NO-%2BVisuAlg-green"> 
