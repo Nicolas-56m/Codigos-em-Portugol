@@ -500,29 +500,81 @@ Fimalgoritmo
 ### 1-) Mostrar de 1 até 10.
 
 ```c
-
+Algoritmo "1 Até 10"
+Var 
+    i: inteiro
+Inicio
+    
+    Para i de 1 ate 10 faca
+        Escreval(i)
+    Fimpara
+    
+Fimalgoritmo
 ```
 
 ### 2-) Mostrar só pares até 20.
 
 ```c
-
+Algoritmo "Pares até 20"
+Var 
+    num: inteiro
+Inicio
+    
+    Para num de 2 ate 20 passo 2 faca 
+        Escreval(num)
+    Fimpara
+    
+Fimalgoritmo
 ```
 
 ### 3-) Somar números de 1 a 5.
 
 ```c
-
+Algoritmo "1 ao 5"
+Var 
+    num, soma: inteiro
+Inicio
+    
+    soma <- 0
+    
+    Para num de 1 ate 5 faca
+        soma <- soma + num
+    Fimpara
+    
+    Escreval("Resultado: ", soma)
+    
+Fimalgoritmo
 ```
 
 ### 4-) Tabuada de um número.
 
 ```c
+Algoritmo "Tabuada"
+Var 
+    num, i: inteiro
+Inicio
 
+    Escreval("Informe um número: ")
+    Leia(num)
+     
+    Para i de 1 ate 10 faca
+        Escreval(num, "x", i, "=", num * i)
+    Fimpara
+    
+Fimalgoritmo
 ```
 
 ### 5-) Contagem regressiva.
 
 ```c
-
+Algoritmo "Contagem Regressiva"
+Var 
+    i: inteiro
+Inicio
+     
+    Para i de 10 ate 1 passo -1 faca
+        Escreval(i)
+    Fimpara
+    
+Fimalgoritmo
 ```
