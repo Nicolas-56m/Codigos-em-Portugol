@@ -384,3 +384,24 @@ Inicio
     
 Fimalgoritmo
 ```
+
+## FASE 4 - ENQUANTO (loop)
+<img src="https://img.shields.io/badge/FEITO NO-%2BVisuAlg-orange"> 
+
+### 1-) Mostrar números de 1 ao 10.
+
+```c
+Algoritmo "1 ao 10"
+Var
+    i: inteiro
+Inicio
+
+    i <- 1
+    
+    Enquanto(i <= 10) faca
+        Escreval(i)
+        i <- i + 1
+    Fimenquanto
+    
+Fimalgoritmo
+```
