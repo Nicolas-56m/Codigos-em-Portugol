@@ -40,7 +40,7 @@ Fimalgoritmo
 ### 3-) Pedir idade e mostrar ela.
 
 ```c
-Algoritmo "Nome e idade"
+Algoritmo "Idade"
 Var
     idade: inteiro
 
@@ -56,7 +56,7 @@ Fimalgoritmo
 ### 4-) Pedir número e mostrar o dobro.
 
 ```c
-Algoritmo "Nome e idade"
+Algoritmo "Dobro"
 Var
     num: inteiro
 
@@ -74,7 +74,7 @@ Fimalgoritmo
 ### 5-) Pedir número e mostrar o triplo.
 
 ```c
-Algoritmo "Nome e idade"
+Algoritmo "Triplo"
 Var
     num: inteiro
 
