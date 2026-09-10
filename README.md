@@ -10,7 +10,7 @@
 Algoritmo "Olá mundo"
 inicio
 
-    Escreval("Olá mundo")
+    escreval("Olá mundo")
     
 fimalgoritmo
 
@@ -272,7 +272,8 @@ fimalgoritmo
 
 ```c
 Algoritmo "Ímpar ou Par"
-    Var num: Inteiro
+Var 
+    num: Inteiro
     
 Inicio
     escreval("Digite um número: ")
@@ -281,10 +282,8 @@ Inicio
     se (num mod 3 = 0) entao
         escreval("Ímpar")
         
-    senao   
-    
+    senao     
         escreval("Par")
-    
     fimse    
     
 Fimalgoritmo
@@ -294,7 +293,8 @@ Fimalgoritmo
 
 ```c
 Algoritmo "Ímpar ou Par"
-    Var num: Inteiro
+Var 
+    num: Inteiro
     
 Inicio
     escreval("Digite um número: ")
@@ -303,10 +303,8 @@ Inicio
     se (num mod 2 = 0) entao
         escreval("Par")
         
-    senao   
-    
+    senao     
         escreval("Ímpar")
-    
     fimse    
     
 Fimalgoritmo
@@ -315,17 +313,71 @@ Fimalgoritmo
 ### 3-) Pedir 2 números e dizer se ambos são pares.
 
 ```c
-
+Algoritmo "Pares"
+Var 
+    n1, n2: inteiro
+    
+inicio
+    escreval("Digite seu primeiro número: ")
+    leia(n1)
+    
+    escreval("Digite seu segundo número: ")
+    leia(n2)
+  
+    se(n1 mod 2 = 0) e (n2 mod 2 = 0) entao
+       escreval("Os dois são pares")
+    
+    senao  
+       escreval("Pelo menos um dos números não é par")    
+    fimse
+    
+Fimalgoritmo
 ```
 
-### 4-)
+### 4-) Mostrar se número é positivo ou negativo.
 
 ```c
-
+Algoritmo "Positivo ou Negativo"
+Var 
+    num: inteiro
+    
+inicio
+    escreval("Digite seu primeiro número: ")
+    leia(num)
+  
+    se(num > 0) entao
+       escreval("Número positivo")
+       
+    senao
+       
+       se(num < 0) entao
+          escreval("Número negativo")
+    
+       senao 
+          escreval("É zero") 
+       fimse
+    fimse
+    
+Fimalgoritmo
 ```
 
-### 5-)
+### 5-) Verificar ze número é maior que 10.
 
 ```c
-
+Algoritmo "Maior que 10"
+Var 
+    num: real
+    
+inicio
+    escreval("Digite seu primeiro número: ")
+    leia(num)
+  
+    se(num > 10) entao
+       escreval("Maior que 10")
+       
+    senao
+    escreval("Não é maior que 10") 
+    fimse
+    
+Fimalgoritmo
 ```
