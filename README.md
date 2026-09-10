@@ -406,28 +406,92 @@ Inicio
 Fimalgoritmo
 ```
 
-### 2-) Mostrar números de 10 a 1.
+### 2-) Mostrar números de 10 ao 1.
 
 ```c
+Algoritmo "10 ao 1"
+Var
+    i: inteiro
+Inicio
 
+    i <- 10
+    
+    Enquanto(i >= 1) faca
+        Escreval(i)
+        i <- i - 1
+    Fimenquanto
+    
+Fimalgoritmo
 ```
 
 ### 3-) Somar números até 5.
 
 ```c
+Algoritmo "Soma"
+Var
+    num, soma, contador: inteiro
+Inicio
 
+    soma <- 0
+    contador <- 1
+    
+    Enquanto(contador <= 5) faca
+        Escreval("Informe um número: ")
+        Leia(num)
+        
+        soma <- soma + num
+        contador <- contador + 1
+    Fimenquanto
+    
+    Escreval("A soma dos números é: ", soma)
+    
+Fimalgoritmo
 ```
 
 ### 4-) Pedir número ate digitar 0.
 
 ```c
+Algoritmo "0 e Soma"
+Var
+    soma, num: inteiro
+Inicio
 
+    soma <- 0
+    
+    Escreval("Informe um número (0 para parar): ")
+    Leia(Num)
+    
+    Enquanto(num <> 0) faca
+        soma <- soma + num
+    
+        Escreval("Informe um número (0 para parar): ")
+        Leia(num)
+    Fimenquanto
+    
+    Escreval("A soma total é: ", soma)
+    
+Fimalgoritmo
 ```
 
 ### 5-) Mostrar tabuada simples.
 
 ```c
-
+Algoritmo "Tabuada"
+Var
+    num, contador: inteiro
+Inicio
+    
+    Escreval("Informe um número: ")
+    Leia(num)
+    
+    contador <- 1
+    
+    Enquanto(contador <= 10) faca
+        Escreval(num, "x", contador, "= ", num * contador)
+        contador <- contador + 1
+    Fimenquanto
+    
+Fimalgoritmo
 ```
 
 ## FASE 5 - PARA (for)
