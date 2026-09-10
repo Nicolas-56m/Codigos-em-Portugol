@@ -56,7 +56,7 @@ Fimalgoritmo
 ### 4-) Pedir número e mostrar o dobro.
 
 ```c
-algoritmo "Nome e idade"
+Algoritmo "Nome e idade"
 Var
     num: inteiro
 
