@@ -7,25 +7,25 @@
 
 ```c
 
-Algoritmo "Olá mundo"
+algoritmo "Olá mundo"
 
-Inicio
+inicio
 
     escreval("Olá mundo")
     
-Fimalgoritmo
+fimalgoritmo
 
 ```
 
 ### 2-) Pedir nome e idade e mostrar na tela.
 
 ```c
-Algoritmo "Nome e idade"
-Var
+algoritmo "Nome e idade"
+var
     nome: caractere
     idade: inteiro
 
-Inicio
+inicio
     escreval("Digite seu nome: ")
     leia(nome)
     
@@ -35,34 +35,34 @@ Inicio
     escreval("Seu nome: ", nome)
     escreval("Sua idade: ", idade)
     
-Fimalgoritmo
+fimalgoritmo
 
 ```
 
 ### 3-) Pedir idade e mostrar ela.
 
 ```c
-Algoritmo "Nome e idade"
-Var
+algoritmo "Nome e idade"
+var
     idade: inteiro
 
-Inicio
+inicio
     escreval("Digite sua idade: ")
     leia(idade)
     
     escreval("Sua idade: ", idade)
     
-Fimalgoritmo
+fimalgoritmo
 ```
 
 ### 4-) Pedir número e mostrar o dobro.
 
 ```c
-Algoritmo "Nome e idade"
-Var
+algoritmo "Nome e idade"
+var
     num: inteiro
 
-Inicio
+inicio
     escreval("Digite um numero: ")
     leia(num)
     
@@ -70,17 +70,17 @@ Inicio
     
     escreval("Resultado: ", num)
     
-Fimalgoritmo
+fimalgoritmo
 ```
 
 ### 5-) Pedir número e mostrar o triplo.
 
 ```c
-Algoritmo "Nome e idade"
-Var
+algoritmo "Nome e idade"
+var
     num: inteiro
 
-Inicio
+inicio
     escreval("Digite um numero: ")
     leia(num)
     
@@ -88,7 +88,7 @@ Inicio
     
     escreval("Resultado: ", num)
     
-Fimalgoritmo
+fimalgoritmo
 ```
 
 ## FASE 2 - Soma, subtração, multiplicação e divisão
@@ -97,10 +97,11 @@ Fimalgoritmo
 ### 1-) Somar 2 números.
 
 ```c
-Algoritmo "Soma"
-    Var n1, n2, resultado: inteiro
+algoritmo "Soma"
+var 
+    n1, n2, resultado: inteiro
     
-Inicio
+inicio
     escreval("Digite seu primeiro número: ")
     leia(n1)
     
@@ -111,16 +112,17 @@ Inicio
         
     escreval("Resultado: ", resultado)
     
-Fimalgoritmo
+fimalgoritmo
 ```
 
 ### 2-) Subtrair 2 números.
 
 ```c
-Algoritmo "Subtração"
-    Var n1, n2, resultado: inteiro
+algoritmo "Subtração"
+var 
+    n1, n2, resultado: inteiro
     
-Inicio
+inicio
     escreval("Digite seu primeiro número: ")
     leia(n1)
     
@@ -131,16 +133,17 @@ Inicio
         
     escreval("Resultado: ", resultado)
     
-Fimalgoritmo
+fimalgoritmo
 ```
 
 ### 3-) Multiplicar 2 números.
 
 ```c
 Algoritmo "Multiplicação"
-    Var n1, n2, resultado: inteiro
+var 
+    n1, n2, resultado: inteiro
     
-Inicio
+inicio
     escreval("Digite seu primeiro número: ")
     leia(n1)
     
@@ -151,16 +154,17 @@ Inicio
         
     escreval("Resultado: ", resultado)
     
-Fimalgoritmo
+fimalgoritmo
 ```
 
 ### 4-) Somar 3 números.
 
 ```c
 Algoritmo "Soma"
-    Var n1, n2, n3 resultado: inteiro
+var 
+    n1, n2, n3 resultado: inteiro
     
-Inicio
+inicio
     escreval("Digite seu primeiro número: ")
     leia(n1)
     
@@ -174,7 +178,7 @@ Inicio
         
     escreval("Resultado: ", resultado)
     
-Fimalgoritmo
+fimalgoritmo
 ```
 
 ### 5-) Fazer média de 2 números.
@@ -184,7 +188,7 @@ Algoritmo "Média"
 Var
     n1, n2, media: real
 
-Inicio
+inicio
     escreval("Digite seu primeiro número: ")
     leia(n1)
 
@@ -195,17 +199,17 @@ Inicio
   
     escreval("O resultado da média é: ", media)
 
-Fimalgoritmo
+fimalgoritmo
 ```
 
 ### 6-) Dividir 2 números.
 
 ```c
-Algoritmo "Divisão"
-Var
+algoritmo "Divisão"
+var
     n1, n2, media: real
 
-Inicio
+inicio
     escreval("Digite seu primeiro número: ")
     leia(n1)
 
@@ -216,14 +220,14 @@ Inicio
   
     escreval("O resultado da média é: ", dividir)
 
-Fimalgoritmo
+fimalgoritmo
 ```
 
 ### 7-) Calcular média (usa divisão).
 
 ```c
-Algoritmo "Média"
-Var
+algoritmo "Média"
+var
     n1, n2, n3, n4, media: real
 
 Inicio
