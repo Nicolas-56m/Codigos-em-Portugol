@@ -5,7 +5,7 @@
 
 ### 1-) Mostrar "Olá mundo".
 
-```c
+```portugol
 Algoritmo "Olá mundo"
 
 Inicio
@@ -17,7 +17,7 @@ Fimalgoritmo
 
 ### 2-) Pedir nome e idade e mostrar na tela.
 
-```c
+```portugol
 Algoritmo "Nome e idade"
 Var
     nome: caractere
@@ -39,7 +39,7 @@ Fimalgoritmo
 
 ### 3-) Pedir idade e mostrar ela.
 
-```c
+```portugol
 Algoritmo "Idade"
 Var
     idade: inteiro
@@ -55,7 +55,7 @@ Fimalgoritmo
 
 ### 4-) Pedir número e mostrar o dobro.
 
-```c
+```portugol
 Algoritmo "Dobro"
 Var
     num: inteiro
@@ -73,7 +73,7 @@ Fimalgoritmo
 
 ### 5-) Pedir número e mostrar o triplo.
 
-```c
+```portugol
 Algoritmo "Triplo"
 Var
     num: inteiro
@@ -94,7 +94,7 @@ Fimalgoritmo
 
 ### 1-) Somar 2 números.
 
-```c
+```portugol
 Algoritmo "Soma de 2 números"
 Var 
     n1, n2, resultado: inteiro
@@ -115,7 +115,7 @@ Fimalgoritmo
 
 ### 2-) Subtrair 2 números.
 
-```c
+```portugol
 Algoritmo "Subtração"
 Var 
     n1, n2, resultado: inteiro
@@ -136,7 +136,7 @@ Fimalgoritmo
 
 ### 3-) Multiplicar 2 números.
 
-```c
+```portugol
 Algoritmo "Multiplicação"
 Var 
     n1, n2, resultado: inteiro
@@ -157,7 +157,7 @@ Fimalgoritmo
 
 ### 4-) Somar 3 números.
 
-```c
+```portugol
 Algoritmo "Soma de 3 números"
 Var 
     n1, n2, n3, resultado: inteiro
@@ -181,7 +181,7 @@ Fimalgoritmo
 
 ### 5-) Fazer média de 2 números.
 
-```c
+```portugol
 Algoritmo "Média"
 Var
     n1, n2, media: real
@@ -202,7 +202,7 @@ Fimalgoritmo
 
 ### 6-) Dividir 2 números.
 
-```c
+```portugol
 Algoritmo "Divisão"
 Var
     n1, n2, dividir: real
@@ -223,7 +223,7 @@ Fimalgoritmo
 
 ### 7-) Calcular média (usa divisão).
 
-```c
+```portugol
 Algoritmo "Média"
 var
     n1, n2, n3, n4, media: real
@@ -250,7 +250,7 @@ Fimalgoritmo
 
 ### 8-) Dividir e mostrar resto (desafio leve).
 
-```c
+```portugol
 Algoritmo "Resto da divisão"
 Var
     n1, n2, resto: inteiro
@@ -273,7 +273,7 @@ Fimalgoritmo
 
 ### 1-) Verificar se número é ímpar.
 
-```c
+```portugol
 Algoritmo "Ímpar ou Par"
 Var 
     num: Inteiro
@@ -294,7 +294,7 @@ Fimalgoritmo
 
 ### 2-) Verificar se o número é par.
 
-```c
+```portugol
 Algoritmo "Ímpar ou Par"
 Var 
     num: Inteiro
@@ -315,7 +315,7 @@ Fimalgoritmo
 
 ### 3-) Pedir 2 números e dizer se ambos são pares.
 
-```c
+```portugol
 Algoritmo "Pares"
 Var 
     n1, n2: inteiro
@@ -339,7 +339,7 @@ Fimalgoritmo
 
 ### 4-) Mostrar se número é positivo ou negativo.
 
-```c
+```portugol
 Algoritmo "Positivo ou Negativo"
 Var 
     num: inteiro
@@ -366,7 +366,7 @@ Fimalgoritmo
 
 ### 5-) Verificar se número é maior que 10.
 
-```c
+```portugol
 Algoritmo "Maior que 10"
 Var 
     num: real
@@ -390,7 +390,7 @@ Fimalgoritmo
 
 ### 1-) Mostrar números de 1 ao 10.
 
-```c
+```portugol
 Algoritmo "1 ao 10"
 Var
     i: inteiro
@@ -408,7 +408,7 @@ Fimalgoritmo
 
 ### 2-) Mostrar números de 10 ao 1.
 
-```c
+```portugol
 Algoritmo "10 ao 1"
 Var
     i: inteiro
@@ -426,7 +426,7 @@ Fimalgoritmo
 
 ### 3-) Somar números até 5.
 
-```c
+```portugol
 Algoritmo "Soma"
 Var
     num, soma, contador: inteiro
@@ -450,7 +450,7 @@ Fimalgoritmo
 
 ### 4-) Pedir número ate digitar 0.
 
-```c
+```portugol
 Algoritmo "Soma até 0"
 Var
     soma, num: inteiro
@@ -475,7 +475,7 @@ Fimalgoritmo
 
 ### 5-) Mostrar tabuada simples.
 
-```c
+```portugol
 Algoritmo "Tabuada"
 Var
     num, contador: inteiro
@@ -499,7 +499,7 @@ Fimalgoritmo
 
 ### 1-) Mostrar de 1 até 10.
 
-```c
+```portugol
 Algoritmo "1 Até 10"
 Var 
     i: inteiro
@@ -514,7 +514,7 @@ Fimalgoritmo
 
 ### 2-) Mostrar só pares até 20.
 
-```c
+```portugol
 Algoritmo "Pares até 20"
 Var 
     num: inteiro
@@ -529,7 +529,7 @@ Fimalgoritmo
 
 ### 3-) Somar números de 1 a 5.
 
-```c
+```portugol
 Algoritmo "1 ao 5"
 Var 
     num, soma: inteiro
@@ -548,7 +548,7 @@ Fimalgoritmo
 
 ### 4-) Tabuada de um número.
 
-```c
+```portugol
 Algoritmo "Tabuada"
 Var 
     num, i: inteiro
