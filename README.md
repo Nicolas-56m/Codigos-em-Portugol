@@ -182,7 +182,7 @@ Fimalgoritmo
 ### 5-) Fazer média de 2 números.
 
 ```portugol
-Algoritmo "Média"
+Algoritmo "Média de 2 números"
 Var
     n1, n2, media: real
 
@@ -224,7 +224,7 @@ Fimalgoritmo
 ### 7-) Calcular média (usa divisão).
 
 ```portugol
-Algoritmo "Média"
+Algoritmo "Média de 4 números"
 var
     n1, n2, n3, n4, media: real
 
@@ -427,7 +427,7 @@ Fimalgoritmo
 ### 3-) Somar números até 5.
 
 ```portugol
-Algoritmo "Soma"
+Algoritmo "Somar até 5"
 Var
     num, soma, contador: inteiro
 Inicio
