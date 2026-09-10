@@ -1,6 +1,6 @@
 # Códigos-em-Portugol - Feitos por mim (para estudo)
 
-## FASE 1 - Escreval/escreva, leia e contas (somente)
+## FASE 1 - Escreval, leia e contas (somente)
 <img src="https://img.shields.io/badge/FEITO NO-%2BVisuAlg-red">
 
 ### 1-) Mostrar "Olá mundo".
